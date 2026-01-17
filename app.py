@@ -4,6 +4,7 @@ def greet(name):
     current_time = datetime.now().strftime("%H:%M:%S")
     return f"Hi{name}! The current time is {current_time}."
 
+
 if __name__ == "__main__":
     user = "World"
     print(greet(user))
